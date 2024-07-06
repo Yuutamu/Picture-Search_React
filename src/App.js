@@ -19,7 +19,7 @@ function App() {
         return res.json();
       })
       .then((data) => {
-        console.log(data.hits);
+        // console.log(data.hits); // デバック
         setFetchData(data.hits);
       });
   };
