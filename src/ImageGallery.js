@@ -14,7 +14,7 @@ const ImageGallery = ({ fetchData }) => {
 
             </a>
 
-            {/* CSS未調整　URL */}
+            {/* CSS未調整 URL */}
             <p>{data.pageURL}</p> 
           </div>
         ))}
