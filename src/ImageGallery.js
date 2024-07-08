@@ -8,7 +8,7 @@ const ImageGallery = ({ fetchData }) => {
           <div className='image' key={data.id} >
             <a href={data.pageURL} target='_blank'>
               <img 
-                src={data.largeImageURL} // data.hits.largeImageURL とは書かない⇐これムズい。hits は、プロパティ
+                src={data.largeImageURL} // 開発メモ（消す）：data.hits.largeImageURL とは書かない。hits は、プロパティ
                 alt='pixabay.com/photos' 
               />
 
